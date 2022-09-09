@@ -8,7 +8,10 @@
 
 int main(void)
 {
-	char c;
+	char c, e, q;
+	e = 'e';
+	q = 'q';
+
 	
 	for (c = 'a'; c <= 'z'; c++)
 	{
