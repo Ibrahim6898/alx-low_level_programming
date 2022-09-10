@@ -14,8 +14,8 @@ int main(void)
 
 	while(c <= 99)
 	{
-		d = (c % 10 + '0')
-		e = (c % 10 + '0')
+		d = (c % 10 + '0');
+		e = (c % 10 + '0');
 		if (d < e)
 		{
 			putchar(d);
