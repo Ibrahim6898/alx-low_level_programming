@@ -3,9 +3,9 @@
 /**
  * main - print if the number is positive, zero or negative.
  *
- * Description: This program  prints "all single digit 
- * numbers of base 10 start ing from 0," followed by a new line.
- * Retun: 0
+ * Description: using the main function
+ * this program prints "Programming is positive, zero or negative
+ * Return: 0
  */
 
 int main(void)
