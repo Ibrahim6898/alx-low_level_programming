@@ -12,7 +12,7 @@ int main(void)
 	int d;
 	int e;
 
-	while(c <= 99)
+	while (c <= 99)
 	{
 		d = (c % 10 + '0');
 		e = (c % 10 + '0');
@@ -25,7 +25,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 		}
-		}
+		};
 		c++
 	}
 		putchar('\n');
