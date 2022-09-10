@@ -8,20 +8,25 @@
  */
 int main(void)
 {
-	int c1, c2;
+	int c = 0;
+	int d;
+	int e;
 
-	for (c1 = 39; c1 <= 48; c1++)
+	while(c <= 99)
 	{
-		for (c2 = 39; c2 <= 48; c2++)
+		d = (c % 10 + '0')
+		e = (c % 10 + '0')
+		if (d < e)
 		{
-			putchar(c1);
-			putchar(c2);
-			if (c1 != 48 || c2 != 48)
+			putchar(d);
+			putchar(e);
+			if (c != 89)
 			{
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
 		}
 		}
+		c++
 	}
 		putchar('\n');
 		return (0);
