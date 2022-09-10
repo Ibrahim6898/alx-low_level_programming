@@ -10,7 +10,7 @@ int main(void)
 {
 	int c1, c2;
 
-	for (c1 = 0; c1 <= 10; c++)
+	for (c1 = 0; c1 <= 10; c1++)
 	{
 		for (c2 = 0; c2 <= 0; c2++)
 		{
@@ -21,7 +21,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+	}
 		putchar('\n');
 		return (0);
-	}
-	}
+}
