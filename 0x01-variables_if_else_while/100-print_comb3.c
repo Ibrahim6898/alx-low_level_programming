@@ -10,13 +10,13 @@ int main(void)
 {
 	int c1, c2;
 
-	for (c1 = 48; c1 <= 57; c1++)
+	for (c1 = 0; c1 <= 89; c1++)
 	{
-		for (c2 = 48; c2 <= 57; c2++)
+		for (c2 = 0; c2 <= 89; c2++)
 		{
 			putchar(c1);
 			putchar(c2);
-			if (c1 != 57 || c2 != 57)
+			if (c1 != 89 || c2 != 89)
 			{
 			putchar(',');
 			putchar(' ');
