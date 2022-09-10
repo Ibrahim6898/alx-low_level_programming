@@ -3,8 +3,8 @@
 /**
  * main - print if the number is positive, zero or negative.
  *
- * Description: using the main function
- * this program prints "programming is positive, zero or negative"
+ * Description: This program  prints "all single digit 
+ * numbers of base 10 start ing from 0," followed by a new line.
  * Retun: 0
  */
 
