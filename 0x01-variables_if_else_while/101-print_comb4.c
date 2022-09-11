@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
+ * main - Entry point
  *
- *Description: using main function
- * this program prints "Program that prints all possible different combinations of 3 digits.
- * Return: 0
+ * Description: using the main function
+ * this prints all possible different combinations of 3 digits
+ * Retunr: 0
  */
+
 int main(void)
 {
 	int c = 0;
@@ -14,8 +16,8 @@ int main(void)
 
 	while (c <= 999)
 	{
-		b = (c / 100 + '0');
-		d = (c / 10 % 10 + '0');
+		b = (c / 100 + '0')
+		d = (c / 10 % 10 + '0')
 		f = (c % 10 + '0');
 		
 		if ((b < d) && (d < f))
