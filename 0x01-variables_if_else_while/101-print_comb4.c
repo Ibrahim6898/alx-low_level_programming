@@ -6,7 +6,7 @@
  * Return: 0
  */
 int main(void){
-	int c =;
+	int c = 0;
 	int b;
 	int d;
 	int f;
@@ -20,7 +20,7 @@ int main(void){
 		if ((b < d) && (d < f))
 		{
 			putchar(b);
-			puychae(d);
+			putchar(d);
 			putchar(f);
 
 			if (c != 789)
@@ -31,6 +31,6 @@ int main(void){
 		}
 		c++;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
