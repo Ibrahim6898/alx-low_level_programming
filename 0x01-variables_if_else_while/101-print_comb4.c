@@ -3,8 +3,8 @@
  * main - Entry point
  *
  * Description: using the main function
- * this prints all possible different combinations of 3 digits
- * Retunr: 0
+ * this "prints all possible different combinations of 3 digits
+ * Return: 0
  */
 
 int main(void)
