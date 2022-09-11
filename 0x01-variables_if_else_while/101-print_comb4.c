@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
  *
- * main - program that prints all possible different combinations of 3 digits.
- *
+ *Description: using main function
+ * this program prints "Program that prints all possible different combinations of 3 digits.
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	int c = 0;
 	int b;
 	int d;
