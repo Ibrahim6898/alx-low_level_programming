@@ -1,4 +1,4 @@
-#inclide "main.h"
+#include "main.h"
 /**
  * _isalpha - a function that checks for alphabetic character
  * @c: single letter input
