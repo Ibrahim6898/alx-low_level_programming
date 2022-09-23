@@ -17,7 +17,7 @@ int main(void)
 	 * - you are not allowed to code anything else than this line of code
 	 */
 	*(p + 5) = 98;
-	/* ...sothat this prints prints 98\n */
+	/* ...so that this prints 98\n */
 	printf("a[12] = %d\n", a[2]);
 	return (0);
 }
