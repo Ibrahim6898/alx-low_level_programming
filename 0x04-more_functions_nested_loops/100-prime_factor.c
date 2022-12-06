@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long no = 612852475143;
 	unsigned long breakdown = no;
-        unsigned long buildup = 1;
+	unsigned long buildup = 1;
 	int divisor  = 2;
 
 	while (1)
@@ -21,11 +21,11 @@ int main(void)
 			buildup *= divisor;
 		}
 		else
-		{
 			divisor++;
 		if (buildup >= no)
 			break;
 	}
 	printf("%d\n", divisor);
+
 	return (0);
 }
