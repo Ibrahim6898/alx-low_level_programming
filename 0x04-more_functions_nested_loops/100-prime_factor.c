@@ -1,35 +1,33 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- *print_triangle - prints a triangle
- *@size:size parameter of triangle
- *Return: returns nothing
+ * main - Entry point
+ *
+ * Return: Always 0;
  */
 
-void print_triangle(int size)
+int main(void)
 {
-	int inc1, inc2;
+	unsigned long n = 612852475143;
+	unsigned long div = 2, ans = 0, maxFact;
 
-	if (size > 0)
+	while (n != 0)
 	{
-		for (inc1 = 1; inc1 <= size; inc1++)
+		if (n % div != 0)
 		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
-			{
-				putchar(' ');
-			}
-			for (inc2 = 0; inc2 < inc1; inc2++)
-			{
-				putchar('#');
-			}
-			if (inc1 == size)
-			{
-				continue;
-			}
-			putchar('\n');
+			div += 1;
+		}
+		else
+		{
+			maxFact = n;
+			n /= div;
+		}
+		if (n == 1)
+		{
+			printf("%ld is the largest prime factor!", maxFact);
+			ans = 1;
+			break;
 		}
 	}
-	putchar('\n');
-
+	return (0);
 }
