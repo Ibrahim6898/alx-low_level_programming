@@ -8,26 +8,24 @@
 
 int main(void)
 {
-	unsigned long n = 612852475143;
-	unsigned long div = 2, ans = 0, maxFact;
+	unsigned long no = 612852475143;
+	unsigned long breakdown = no;
+        unsigned long buildup = 1;
+	int divisor  = 2;
 
-	while (n != 0)
+	while (1)
 	{
-		if (n % div != 0)
+		if ((breakdown % divisor) == 0)
 		{
-			div += 1;
+			breakdown /= divisor;
+			buildup *= divisor;
 		}
 		else
 		{
-			maxFact = n;
-			n /= div;
-		}
-		if (n == 1)
-		{
-			printf("%ld is the largest prime factor!", maxFact);
-			ans = 1;
+			divisor++;
+		if (buildup >= no)
 			break;
-		}
 	}
+	printf("%d\n", divisor);
 	return (0);
 }
