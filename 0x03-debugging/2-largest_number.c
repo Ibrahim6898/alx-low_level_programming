@@ -5,6 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
+ * Return: largest number.
  */
 
 long largest_number(long a, long b, long c)
